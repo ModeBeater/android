@@ -24,8 +24,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".PizzaDetailsActivity"
-            >
+            android:name=".PizzaDetailsActivity">
+
+        </activity>
+        <activity
+            android:name=".NewPizzaDetailsActivity"
+            android:exported="true">
         </activity>
     </application>
 
